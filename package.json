@@ -1,0 +1,15 @@
+{
+  "name": "librarymanagement",
+  "version": "1.0.0",
+  "description": "Projeto final da disciplina de algoritmo do curso de ADS, que consiste no desenvolvimento de um sistema que faça o gerenciamento de uma biblioteca.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
