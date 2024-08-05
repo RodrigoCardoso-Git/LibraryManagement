@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Online</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="login-body">
+    <div class="form-container">
+        <h1>Criar Conta</h1>
+        <form action="tela-inicial-aluno.html" method="post">
+            <label for="full-name">Nome completo:</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required minlength="8"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            <div class="password-requirements">
+                A senha deve ter pelo menos 8 caracteres, incluindo uma letra maiúscula, uma letra minúscula e um
+                número.
+            </div>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <input type="submit" value="Criar Conta">
+        </form>
+    </div>
+</body>
+
+</html>
